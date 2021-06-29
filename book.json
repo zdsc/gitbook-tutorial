@@ -1,0 +1,36 @@
+{
+    "plugins":
+    [
+      "expandable-chapters-small",
+      "lightbox",
+      "copy-code-button",
+      "splitter",
+      "-lunr",
+      "-search",
+      "search-pro",
+      "auto-scroll-table",
+      "back-to-top-button",
+      "accordion",
+      "toggle-chapters",
+      "image-captions"
+    ],
+  
+    "pluginsConfig":
+    {
+      "theme-default": {
+        "showLevel": true
+      },
+      "expandable-chapters-small": {},
+      "lightbox": {
+        "includeJQuery": true,
+        "sameUuid": true,
+        "options": {
+          "resizeDuration": 500,
+          "wrapAround": true
+        },
+        "image-captions":
+        {"align": "center"}
+  
+     }
+    }
+  }
